@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>HTML Cheat Sheet</title>
+  </head>
+  <body>
+    <h1>HTML Cheat Sheet</h1>
+    <div class="container">
+      <h2>Content Sectioning</h2>
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag"><span class="code">&lt;header&gt;</span></td>
+            <td>Header</td>
+            <td>
+              Represents introductory content, typically a group of introductory
+              or navigational aids.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;footer&gt;</span></td>
+            <td>Footer</td>
+            <td>
+              Represents a footer for its nearest sectioning content or
+              sectioning root element.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;main&gt;</span></td>
+            <td>Main</td>
+            <td>Represents the dominant content of the body of a document.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;nav&gt;</span></td>
+            <td>Navigation</td>
+            <td>
+              Represents a section of a page whose purpose is to provide
+              navigation links, either within the current document or to other
+              documents.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;section&gt;</span></td>
+            <td>Section</td>
+            <td>
+              Represents a generic standalone section of a document, which
+              doesn't have a more specific semantic element to represent it.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag">
+              <span class="code">&lt;h1&gt;</span>
+              <span class="code">&lt;h2&gt;</span>
+              <span class="code">&lt;h3&gt;</span>
+              <span class="code">&lt;h4&gt;</span>
+              <span class="code">&lt;h5&gt;</span>
+              <span class="code">&lt;h6&gt;</span>
+            </td>
+            <td>Heading Elements</td>
+            <td>
+              Represent six levels of section headings.
+              <span class="code">&lt;h1&gt;</span> is the highest section level
+              and <span class="code">&lt;h6&gt;</span> is the lowest.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <h2>Table Tags</h2>
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag"><span class="code">&lt;table&gt;</span></td>
+            <td>Table</td>
+            <td>The wrapper element for all HTML tables.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;thead&gt;</span></td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;tbody&gt;</span></td>
+            <td>Table Body</td>
+            <td>The set of rows containing actual table data.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;tr&gt;</span></td>
+            <td>Table Row</td>
+            <td>The table row container.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;td&gt;</span></td>
+            <td>Table Data</td>
+            <td>The table row container.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;tfoot&gt;</span></td>
+            <td>Table Foot</td>
+            <td>The set of rows defining the footer in a table.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <h2>Text Content</h2>
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag"><span class="code">&lt;p&gt;</span></td>
+            <td>Paragraph</td>
+            <td>Represents a paragraph.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;div&gt;</span></td>
+            <td>Content Division</td>
+            <td>
+              The generic container for flow content. It has no effect on the
+              content or layout until styled in some way using CSS.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;ul&gt;</span></td>
+            <td>Unordered List</td>
+            <td>
+              Represents an unordered list of items, typically rendered as a
+              bulleted list.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;ol&gt;</span></td>
+            <td>Ordered List</td>
+            <td>
+              Represents an ordered list of items — typically rendered as a
+              numbered list.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;li&gt;</span></td>
+            <td>List Item</td>
+            <td>
+              Represents an item in a list. It must be contained in a parent
+              element: an ordered list (ol) or an unordered list (ul).
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <h2>Inline Text Semantics</h2>
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag"><span class="code">&lt;a&gt;</span></td>
+            <td>Anchor</td>
+            <td>
+              Creates a hyperlink to web pages, files, email addresses,
+              locations in the same page, or anything else a URL can address.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;br&gt;</span></td>
+            <td>Content Division</td>
+            <td>Produces a line break in text.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;em&gt;</span></td>
+            <td>Emphasis</td>
+            <td>Marks text that has stress emphasis.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;strong&gt;</span></td>
+            <td>Strong Importance</td>
+            <td>
+              Indicates that its contents have strong importance, seriousness,
+              or urgency. Browsers typically render the contents in bold type.
+            </td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;span&gt;</span></td>
+            <td>Content Span</td>
+            <td>
+              Generic inline container for phrasing content, which does not
+              inherently represent anything. It can be used to group elements
+              for styling purposes.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h2>Image and Multimedia</h2>
+      <table>
+        <thead>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tag"><span class="code">&lt;audio&gt;</span></td>
+            <td>Embed Audio</td>
+            <td>Used to embed sound content in documents.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;img&gt;</span></td>
+            <td>Image Embed</td>
+            <td>Embeds an image into the document.</td>
+          </tr>
+          <tr>
+            <td class="tag"><span class="code">&lt;video&gt;</span></td>
+            <td>Video Embed</td>
+            <td>
+              Embeds a media player which supports video playback into the
+              document.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
